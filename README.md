@@ -3,3 +3,7 @@ To mój pierwszy projekt bazodanowy, w którym uczę się tworzyć relacje międ
 
 ### Użyte technologie:
 *SQL (MySQL)*
+
+### Co planuje dodać:
+*Tabelę z gatunkami książek.*
+*Wypożyczenia książek.*
