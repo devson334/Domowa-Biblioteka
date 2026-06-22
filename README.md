@@ -1,10 +1,20 @@
 # Domowa Biblioteka 📚
-To mój pierwszy projekt bazodanowy, w którym uczę się tworzyć relacje między autorami a książkami.
 
-### Użyte technologie:
-*SQL (MySQL)*
+To mój projekt bazodanowy, w którym uczę się tworzyć relacje między tabelami oraz zarządzać informacjami. Projekt skupia się na budowie systemu obsługi biblioteki.
 
-### Co planuje dodać:
-*Tabelę z gatunkami książek*
+### 🛠 Użyte technologie:
+* **SQL (MySQL)**
+* **Relacyjne bazy danych:** Projekt wykorzystuje klucze obce (`FOREIGN KEY`) do łączenia autorów, gatunków, czytelników i wypożyczeń.
 
-*Wypożyczenia książek*
+### 📋 Struktura bazy:
+Projekt składa się z czterech głównych tabel:
+* **Autorzy** – dane o pisarzach.
+* **Gatunki** – kategorie książek.
+* **Czytelnicy** – osoby zarejestrowane w systemie.
+* **Wypożyczenia** – historia wypożyczeń łącząca czytelników z książkami.
+
+### 🚀 Co planuję dodać w przyszłości:
+* Dodanie statusu dostępności książek (dostępna/wypożyczona).
+* Tworzenie widoków (Views) do szybkiego raportowania wypożyczeń.
+* Optymalizacja zapytań SQL.
+
